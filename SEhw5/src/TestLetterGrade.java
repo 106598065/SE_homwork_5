@@ -13,6 +13,7 @@ class TestLetterGrade {
 		assertEquals('F',letterGrade(55));
 		assertEquals('X',letterGrade(-5));
 		assertEquals('X',letterGrade(105));
+		assertEquals('X',letterGrade(105));
 	}
 	
 	public static char letterGrade(int score) { 
